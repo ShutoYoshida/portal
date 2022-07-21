@@ -1,0 +1,118 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Franklin Gothic;
+  margin: 0px;
+  height:100%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  height:100%;
+}
+
+/* 共通要素 */
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+/* header */
+
+header {
+  background-color: crimson;
+  height: 55px;
+  width: 100%;
+  opacity: 0.6;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-right {
+  margin-top: 20px;
+  float: right;
+}
+
+.header-left {
+  margin-top: 20px;
+  float: left;
+}
+
+.menu {
+  opacity: 0.8;
+  font-size: 19px;
+  color: white;
+}
+
+.fab {
+  color: white;
+  opacity: 0.8;
+  margin-right: 10px
+}
+
+.header-left li {
+  margin-left: 13px;
+  margin-top: auto;
+  float: left;
+}
+
+.now {
+  display: inline-block;
+  padding-top: 15px;
+  opacity: 1;
+  font-size: 22px;
+  color: white;
+}
+
+/* トップコンテンツ */
+
+.top-wrapper {
+  text-align: center;
+  color: white;
+  height: 700px;
+}
+
+.top-contents {
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-image: url(https://drive.google.com/uc?export=view&id=1zNBy8T9PTiH26NOAKqYwO3xR0NjDusGQ); */
+  background-size: cover;
+  width: 750px;
+  height: 650px;
+}
+
+.top-contents h1 {
+  position: fixed;
+  opacity: 0.8;
+  top: 45%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* footer */
+
+footer {
+  background-color: crimson;
+  height: 65px;
+  width: 100%;
+  opacity: 0.6;
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
+}
